@@ -1,7 +1,12 @@
 import React from 'react';
+import DefaultLayout from './layout/DefaultLayout';
 
 function App() {
-  return <div></div>;
+  return (
+    <DefaultLayout>
+      <div>Some</div>
+    </DefaultLayout>
+  );
 }
 
 export default App;

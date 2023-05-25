@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import Header from './Header';
 
-const DefaultLayout = () => {
+export interface LayoutProps {
+  children: ReactNode;
+}
+
+const DefaultLayout = ({ children }: LayoutProps) => {
   return (
     <>
       <Header />
+      {children}
     </>
   );
 };
