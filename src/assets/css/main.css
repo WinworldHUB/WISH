@@ -2136,7 +2136,7 @@ header.scrolled {
 }
 
 nav.site-menu ul li a {
-  color: var(--enpix-black-900);
+  color: var(--enpix-black-100);
 }
 
 .home-2 .header-2 nav.site-menu ul li a,
@@ -2505,7 +2505,7 @@ button.header-side-info-close svg {
 
 /* Light Variant */
 .enpix-footer-light {
-  background: white;
+  background: var(--enpix-bg-3);
   position: relative;
   overflow: hidden;
 }
