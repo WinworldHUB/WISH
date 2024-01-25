@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import darkLogo from "/src/assets/img/site-logo/logo-dark.png";
 
 interface PageMenuProps {
   menu: MenuItem[];
@@ -22,7 +23,7 @@ const PageMenu: React.FC<PageMenuProps> = ({
           <div className="col-xl-2 col-9">
             <div className="logo">
               <a href="index.html">
-                <img src="/src/assets/img/site-logo/logo-dark.png" alt="wish" />
+                <img src={darkLogo} alt="wish" />
               </a>
             </div>
           </div>
