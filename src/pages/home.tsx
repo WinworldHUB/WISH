@@ -1,5 +1,6 @@
 import PageLayout from "../lib/components/page-layout";
 import { MENU } from "../lib/constants/constants";
+// @ts-expect-error Splide library lacks type export
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
