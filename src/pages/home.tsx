@@ -4,6 +4,30 @@ import { MENU } from "../lib/constants/constants";
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 
+import path from "/src/assets/img/svg/Path.svg";
+import rectangle from "/src/assets/img/svg/Rectangle.svg";
+import oval from "/src/assets/img/svg/Oval.svg";
+import triangleShape from "/src/assets/img/svg/TriangleShape.svg";
+
+import banner1 from "/src/assets/img/home/banner/banner-1.png";
+import banner3 from "/src/assets/img/home/banner/banner-3.png";
+
+import ellipse13 from "/src/assets/img/svg/Ellipse13.svg";
+import ellipse14 from "/src/assets/img/svg/Ellipse14.svg";
+import group21 from "/src/assets/img/home/banner/Group21.svg";
+import group34 from "/src/assets/img/home/services/Group34.svg";
+
+import logo1 from "/src/assets/img/home/logo/logo-1.png";
+import logo2 from "/src/assets/img/home/logo/logo-2.png";
+import logo3 from "/src/assets/img/home/logo/logo-3.png";
+import logo4 from "/src/assets/img/home/logo/logo-4.png";
+import logo5 from "/src/assets/img/home/logo/logo-5.png";
+
+import icon from "/src/assets/img/home/services/icon.svg";
+import branding from "/src/assets/img/home/global-branding/branding.png";
+import branding003_1 from "/src/assets/img/home/services/003-branding1.svg";
+import designTools1 from "/src/assets/img/home/services/001-design-tools1.svg";
+
 export default function Home() {
   return (
     <PageLayout menu={MENU}>
@@ -29,46 +53,24 @@ export default function Home() {
                         <a href="services.html">Get Started</a>
                       </div>
 
-                      <img
-                        className="path-svg"
-                        src="/src/assets/img/svg/Path.svg"
-                        alt="enpix"
-                      />
+                      <img className="path-svg" src={path} alt="wish" />
                       <img
                         className="rectangle-svg"
-                        src="/src/assets/img/svg/Rectangle.svg"
-                        alt="enpix"
+                        src={rectangle}
+                        alt="wish"
                       />
-                      <img
-                        className="oval-svg"
-                        src="/src/assets/img/svg/Oval.svg"
-                        alt="enpix"
-                      />
+                      <img className="oval-svg" src={oval} alt="wish" />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-5">
                     <div className="banner-image-area">
-                      <img
-                        className="banner-image"
-                        src="/src/assets/img/home/banner/banner-1.png"
-                        alt="enpix"
-                      />
+                      <img className="banner-image" src={banner1} alt="wish" />
                       <div className="banner-image-svg relative">
-                        <img
-                          src="/src/assets/img/svg/Ellipse14.svg"
-                          alt="enpix"
-                        />
-                        <img
-                          src="/src/assets/img/svg/Ellipse13.svg"
-                          alt="enpix"
-                        />
+                        <img src={ellipse14} alt="wish" />
+                        <img src={ellipse13} alt="wish" />
                       </div>
 
-                      <img
-                        className="fill-255"
-                        src="/src/assets/img/home/banner/Group21.svg"
-                        alt="enpix"
-                      />
+                      <img className="fill-255" src={group21} alt="wish" />
                     </div>
                   </div>
                 </div>
@@ -92,46 +94,24 @@ export default function Home() {
                         <a href="services.html">Get Started</a>
                       </div>
 
-                      <img
-                        className="path-svg"
-                        src="/src/assets/img/svg/Path.svg"
-                        alt="enpix"
-                      />
+                      <img className="path-svg" src={path} alt="wish" />
                       <img
                         className="rectangle-svg"
-                        src="/src/assets/img/svg/Rectangle.svg"
-                        alt="enpix"
+                        src={rectangle}
+                        alt="wish"
                       />
-                      <img
-                        className="oval-svg"
-                        src="/src/assets/img/svg/Oval.svg"
-                        alt="enpix"
-                      />
+                      <img className="oval-svg" src={oval} alt="wish" />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-5">
                     <div className="banner-image-area">
-                      <img
-                        className="banner-image"
-                        src="/src/assets/img/home/banner/banner-2.png"
-                        alt="enpix"
-                      />
+                      <img className="banner-image" src={banner1} alt="wish" />
                       <div className="banner-image-svg relative">
-                        <img
-                          src="/src/assets/img/svg/Ellipse14.svg"
-                          alt="enpix"
-                        />
-                        <img
-                          src="/src/assets/img/svg/Ellipse13.svg"
-                          alt="enpix"
-                        />
+                        <img src={ellipse14} alt="wish" />
+                        <img src={ellipse13} alt="wish" />
                       </div>
 
-                      <img
-                        className="fill-255"
-                        src="/src/assets/img/home/banner/Group21.svg"
-                        alt="enpix"
-                      />
+                      <img className="fill-255" src={group21} alt="wish" />
                     </div>
                   </div>
                 </div>
@@ -155,46 +135,24 @@ export default function Home() {
                         <a href="services.html">Get Started</a>
                       </div>
 
-                      <img
-                        className="path-svg"
-                        src="/src/assets/img/svg/Path.svg"
-                        alt="enpix"
-                      />
+                      <img className="path-svg" src={path} alt="wish" />
                       <img
                         className="rectangle-svg"
-                        src="/src/assets/img/svg/Rectangle.svg"
-                        alt="enpix"
+                        src={rectangle}
+                        alt="wish"
                       />
-                      <img
-                        className="oval-svg"
-                        src="/src/assets/img/svg/Oval.svg"
-                        alt="enpix"
-                      />
+                      <img className="oval-svg" src={oval} alt="wish" />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-5">
                     <div className="banner-image-area">
-                      <img
-                        className="banner-image"
-                        src="/src/assets/img/home/banner/banner-3.png"
-                        alt="enpix"
-                      />
+                      <img className="banner-image" src={banner3} alt="wish" />
                       <div className="banner-image-svg relative">
-                        <img
-                          src="/src/assets/img/svg/Ellipse14.svg"
-                          alt="enpix"
-                        />
-                        <img
-                          src="/src/assets/img/svg/Ellipse13.svg"
-                          alt="enpix"
-                        />
+                        <img src={ellipse14} alt="wish" />
+                        <img src={ellipse13} alt="wish" />
                       </div>
 
-                      <img
-                        className="fill-255"
-                        src="/src/assets/img/home/banner/Group21.svg"
-                        alt="enpix"
-                      />
+                      <img className="fill-255" src={group21} alt="wish" />
                     </div>
                   </div>
                 </div>
@@ -218,34 +176,19 @@ export default function Home() {
               }}
             >
               <SplideSlide>
-                <img
-                  src="/src/assets/img/home/companies-logo/Logo-1.svg"
-                  alt="enpix"
-                />
+                <img src={logo1} alt="wish" />
               </SplideSlide>
               <SplideSlide>
-                <img
-                  src="/src/assets/img/home/companies-logo/Logo-2.svg"
-                  alt="enpix"
-                />
+                <img src={logo2} alt="wish" />
               </SplideSlide>
               <SplideSlide>
-                <img
-                  src="/src/assets/img/home/companies-logo/Logo-3.svg"
-                  alt="enpix"
-                />
+                <img src={logo3} alt="wish" />
               </SplideSlide>
               <SplideSlide>
-                <img
-                  src="/src/assets/img/home/companies-logo/Logo-4.svg"
-                  alt="enpix"
-                />
+                <img src={logo4} alt="wish" />
               </SplideSlide>
               <SplideSlide>
-                <img
-                  src="/src/assets/img/home/companies-logo/Logo-5.svg"
-                  alt="enpix"
-                />
+                <img src={logo5} alt="wish" />
               </SplideSlide>
             </Splide>
           </div>
@@ -269,23 +212,12 @@ export default function Home() {
             </div>
 
             <div className="relative">
-              <img
-                className="circle-shape"
-                src="/src/assets/img/home/services/Group34.svg"
-                alt="enpix"
-              />
-              <img
-                className="triangle-shape"
-                src="/src/assets/img/home/services/Trianglelineshape.svg"
-                alt="enpix"
-              />
+              <img className="circle-shape" src={group34} alt="wish" />
+              <img className="triangle-shape" src={triangleShape} alt="wish" />
               <div className="row wow animate__animated animate__fadeInUp animate__delay-1s">
                 <div className="col-xl-3 col-sm-6">
                   <div className="service-content">
-                    <img
-                      src="/src/assets/img/home/services/icon.svg"
-                      alt="enpix"
-                    />
+                    <img src={icon} alt="wish" />
                     <h3 className="heading-5">
                       <a href="services.html">Mobile Apps</a>
                     </h3>
@@ -312,10 +244,7 @@ export default function Home() {
                 </div>
                 <div className="col-xl-3 col-sm-6">
                   <div className="service-content">
-                    <img
-                      src="/src/assets/img/home/services/003-branding1.svg"
-                      alt="enpix"
-                    />
+                    <img src={branding003_1} alt="wish" />
                     <h3 className="heading-5">
                       <a href="services.html">Branding Strategy</a>
                     </h3>
@@ -342,10 +271,7 @@ export default function Home() {
                 </div>
                 <div className="col-xl-3 col-sm-6">
                   <div className="service-content">
-                    <img
-                      src="/src/assets/img/home/services/001-design-tools1.svg"
-                      alt="enpix"
-                    />
+                    <img src={designTools1} alt="wish" />
                     <h3 className="heading-5">
                       <a href="services.html">Graphics Design</a>
                     </h3>
@@ -374,7 +300,7 @@ export default function Home() {
                   <div className="service-content">
                     <img
                       src="/src/assets/img/home/services/004-pie-chart1.svg"
-                      alt="enpix"
+                      alt="wish"
                     />
                     <h3 className="heading-5">
                       <a href="services.html">Online Marketing</a>
@@ -412,14 +338,10 @@ export default function Home() {
                 <div className="branding-image-container relative">
                   <img
                     className="branding-image-shape"
-                    src="/src/assets/img/svg/Group21.svg"
-                    alt="enpix"
+                    src={group21}
+                    alt="wish"
                   />
-                  <img
-                    className="branding-image"
-                    src="/src/assets/img/home/global-branding/branding.png"
-                    alt="enpix"
-                  />
+                  <img className="branding-image" src={branding} alt="wish" />
                 </div>
               </div>
               <div className="col-md-6 wow animate__animated animate__fadeInRight">
@@ -521,18 +443,18 @@ export default function Home() {
                   <div className="speciality-video-thumbnail-container relative">
                     <img
                       className="speciality-video-shape"
-                      src="/src/assets/img/svg/Group21.svg"
-                      alt="enpix"
+                      src={group21}
+                      alt="wish"
                     />
                     <img
                       className="speciality-video-triangle"
                       src="/src/assets/img/svg/Rectangle8.svg"
-                      alt="enpix"
+                      alt="wish"
                     />
                     <img
                       className="speciality-video-thumbnail"
                       src="/src/assets/img/home/speciality/Rectangle920.png"
-                      alt="enpix"
+                      alt="wish"
                     />
                     <div className="video-play-icon">
                       <a
@@ -565,7 +487,7 @@ export default function Home() {
                   <div className="speciality-box">
                     <img
                       src="/src/assets/img/home/speciality/005-layers1.svg"
-                      alt="enpix"
+                      alt="wish"
                     />
                     <h3 className="heading-5 mt-35">Friendly Interface</h3>
                     <p className="enpix-body-text-2 mt-20">
@@ -578,7 +500,7 @@ export default function Home() {
                   <div className="speciality-box">
                     <img
                       src="/src/assets/img/home/speciality/006-customer-support1.svg"
-                      alt="enpix"
+                      alt="wish"
                     />
                     <h3 className="heading-5 mt-35">Quality Support</h3>
                     <p className="enpix-body-text-2 mt-20">
@@ -591,7 +513,7 @@ export default function Home() {
                   <div className="speciality-box">
                     <img
                       src="/src/assets/img/home/speciality/005-layers1.svg"
-                      alt="enpix"
+                      alt="wish"
                     />
                     <h3 className="heading-5 mt-35">Great Pricing</h3>
                     <p className="enpix-body-text-2 mt-20">
@@ -649,7 +571,7 @@ export default function Home() {
                   <a href="portfolio-details.html">
                     <img
                       src="/src/assets/img//home/projects/Rectangle925.png"
-                      alt="enpix"
+                      alt="wish"
                     />
                   </a>
                 </div>
@@ -693,7 +615,7 @@ export default function Home() {
                   <a href="portfolio-details.html">
                     <img
                       src="/src/assets/img//home/projects/Rectangle926.png"
-                      alt="enpix"
+                      alt="wish"
                     />
                   </a>
                 </div>
@@ -737,7 +659,7 @@ export default function Home() {
                   <a href="portfolio-details.html">
                     <img
                       src="/src/assets/img//home/projects/image.png"
-                      alt="enpix"
+                      alt="wish"
                     />
                   </a>
                 </div>
@@ -783,7 +705,7 @@ export default function Home() {
                   <a href="portfolio-details.html">
                     <img
                       src="/src/assets/img//home/projects/image(1).png"
-                      alt="enpix"
+                      alt="wish"
                     />
                   </a>
                 </div>
@@ -827,7 +749,7 @@ export default function Home() {
                   <a href="portfolio-details.html">
                     <img
                       src="/src/assets/img//home/projects/image(2).png"
-                      alt="enpix"
+                      alt="wish"
                     />
                   </a>
                 </div>
@@ -871,12 +793,12 @@ export default function Home() {
         <section className="reviews-area pt-130 pb-130 relative">
           <img
             src="/src/assets/img/svg/Group34.svg"
-            alt="enpix"
+            alt="wish"
             className="review-shape-circle"
           />
           <img
-            src="/src/assets/img/svg/Trianglelineshape.svg"
-            alt="enpix"
+            src={triangleShape}
+            alt="wish"
             className="review-shape-triangle"
           />
           <div className="container">
@@ -893,7 +815,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-7 offset-xl-1">
-                <img src="/src/assets/img/svg/quote.svg" alt="enpix" />
+                <img src="/src/assets/img/svg/quote.svg" alt="wish" />
                 <Splide
                   options={{
                     rewind: true,
@@ -1162,7 +1084,7 @@ export default function Home() {
         <div className="subscribe-form-area bg-white">
           <img
             src="/src/assets/img/svg/Group34.svg"
-            alt="enpix"
+            alt="wish"
             className="subscribe-shape-circle"
           />
           <div className="container">

@@ -22,9 +22,9 @@ const PageMenu: React.FC<PageMenuProps> = ({
         <div className="row">
           <div className="col-xl-2 col-9">
             <div className="logo">
-              <a href="index.html">
+              <Link to="/">
                 <img src={darkLogo} alt="wish" />
-              </a>
+              </Link>
             </div>
           </div>
           <div className="col-xl-8 col-3 d-flex align-items-center">

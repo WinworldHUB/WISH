@@ -1,21 +1,17 @@
+import lightLogo from "/src/assets/img/site-logo/logo-light.png";
+import footerLightPath from "/src/assets/img/svg/footer-light-path.svg";
+import footerLightTriangle from "/src/assets/img/svg/Trianglelineshape.svg";
+
 const PageFooter: React.FC = () => {
   return (
     <footer className="enpix-footer-light">
-      <img
-        src="/src/assets/img/svg/footer-light-path.svg"
-        alt="enpix"
-        className="footer-path"
-      />
-      <img
-        src="/src/assets/img/svg/Trianglelineshape.svg"
-        alt="enpix"
-        className="footer-triangle"
-      />
+      <img src={footerLightPath} alt="enpix" className="footer-path" />
+      <img src={footerLightTriangle} alt="enpix" className="footer-triangle" />
       <div className="container footer-container enpix-border-top">
         <div className="row">
           <div className="col-lg-4 mb-30">
             <div className="company-info">
-              <img src="/src/assets/img/site-logo/logo-dark.png" alt="enpix" />
+              <img src={lightLogo} alt="enpix" />
               <div className="footer-mail mt-30 mb-15">
                 <a href="/cdn-cgi/l/email-protection#a4c7cbc9d4c5caddcdcac2cbe4c9c5cdc88ac7cbc9">
                   <span
