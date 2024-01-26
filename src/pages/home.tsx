@@ -7,7 +7,7 @@ import "@splidejs/react-splide/css";
 import path from "/src/assets/img/svg/Path.svg";
 import rectangle from "/src/assets/img/svg/Rectangle.svg";
 import oval from "/src/assets/img/svg/Oval.svg";
-import triangleShape from "/src/assets/img/svg/TriangleShape.svg";
+import triangleShape from "/src/assets/img/svg/Trianglelineshape.svg";
 
 import banner1 from "/src/assets/img/home/banner/banner-1.png";
 import banner3 from "/src/assets/img/home/banner/banner-3.png";
