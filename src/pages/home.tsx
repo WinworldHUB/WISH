@@ -17,11 +17,11 @@ import ellipse14 from "/src/assets/img/svg/Ellipse14.svg";
 import group21 from "/src/assets/img/home/banner/Group21.svg";
 import group34 from "/src/assets/img/home/services/Group34.svg";
 
-import logo1 from "/src/assets/img/home/companies-logo/logo-1.png";
-import logo2 from "/src/assets/img/home/companies-logo/logo-2.png";
-import logo3 from "/src/assets/img/home/companies-logo/logo-3.png";
-import logo4 from "/src/assets/img/home/companies-logo/logo-4.png";
-import logo5 from "/src/assets/img/home/companies-logo/logo-5.png";
+import logo1 from "/src/assets/img/home/companies-logo/Logo-1.svg";
+import logo2 from "/src/assets/img/home/companies-logo/Logo-2.svg";
+import logo3 from "/src/assets/img/home/companies-logo/Logo-3.svg";
+import logo4 from "/src/assets/img/home/companies-logo/Logo-4.svg";
+import logo5 from "/src/assets/img/home/companies-logo/Logo-5.svg";
 
 import icon from "/src/assets/img/home/services/icon.svg";
 import branding from "/src/assets/img/home/global-branding/branding.png";
