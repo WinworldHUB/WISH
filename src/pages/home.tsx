@@ -16,6 +16,7 @@ import ellipse13 from "/src/assets/img/svg/Ellipse13.svg";
 import ellipse14 from "/src/assets/img/svg/Ellipse14.svg";
 import group21 from "/src/assets/img/home/banner/Group21.svg";
 import group34 from "/src/assets/img/home/services/Group34.svg";
+import group34_svg from "/src/assets/img/svg/Group34.svg";
 
 import logo1 from "/src/assets/img/home/companies-logo/Logo-1.svg";
 import logo2 from "/src/assets/img/home/companies-logo/Logo-2.svg";
@@ -27,6 +28,21 @@ import icon from "/src/assets/img/home/services/icon.svg";
 import branding from "/src/assets/img/home/global-branding/branding.png";
 import branding003_1 from "/src/assets/img/home/services/003-branding1.svg";
 import designTools1 from "/src/assets/img/home/services/001-design-tools1.svg";
+import pieChart1_004 from "/src/assets/img/home/services/004-pie-chart1.svg";
+
+import Rectangle8 from "/src/assets/img/svg/Rectangle8.svg";
+import Rectangle920 from "/src/assets/img/home/speciality/Rectangle920.png";
+import layers1_005 from "/src/assets/img/home/speciality/005-layers1.svg";
+import customerSupport1_006 from "/src/assets/img/home/speciality/006-customer-support1.svg";
+import rectangle925 from "/src/assets/img/home/projects/Rectangle925.png";
+import rectangle926 from "/src/assets/img/home/projects/Rectangle926.png";
+import rectangle928 from "/src/assets/img/blog/Rectangle928.png";
+import rectangle928_2 from "/src/assets/img/blog/Rectangle928(2).png";
+import image from "/src/assets/img/home/projects/image.png";
+import image1 from "/src/assets/img/home/projects/image(1).png";
+import image2 from "/src/assets/img/home/projects/image(2).png";
+import quote from "/src/assets/img/svg/quote.svg";
+import imageBlog2 from "/src/assets/img/blog/image(2).png";
 
 export default function Home() {
   return (
@@ -298,10 +314,7 @@ export default function Home() {
                 </div>
                 <div className="col-xl-3 col-sm-6">
                   <div className="service-content">
-                    <img
-                      src="/src/assets/img/home/services/004-pie-chart1.svg"
-                      alt="wish"
-                    />
+                    <img src={pieChart1_004} alt="wish" />
                     <h3 className="heading-5">
                       <a href="services.html">Online Marketing</a>
                     </h3>
@@ -448,12 +461,12 @@ export default function Home() {
                     />
                     <img
                       className="speciality-video-triangle"
-                      src="/src/assets/img/svg/Rectangle8.svg"
+                      src={Rectangle8}
                       alt="wish"
                     />
                     <img
                       className="speciality-video-thumbnail"
-                      src="/src/assets/img/home/speciality/Rectangle920.png"
+                      src={Rectangle920}
                       alt="wish"
                     />
                     <div className="video-play-icon">
@@ -485,10 +498,7 @@ export default function Home() {
               <div className="speciality-features row pt-130 wow animate__animated animate__fadeInUp">
                 <div className="col-md-4">
                   <div className="speciality-box">
-                    <img
-                      src="/src/assets/img/home/speciality/005-layers1.svg"
-                      alt="wish"
-                    />
+                    <img src={layers1_005} alt="wish" />
                     <h3 className="heading-5 mt-35">Friendly Interface</h3>
                     <p className="enpix-body-text-2 mt-20">
                       Exercit ullamo quis nostrud ea laboris nisi ut aliqui duis
@@ -498,10 +508,7 @@ export default function Home() {
                 </div>
                 <div className="col-md-4">
                   <div className="speciality-box">
-                    <img
-                      src="/src/assets/img/home/speciality/006-customer-support1.svg"
-                      alt="wish"
-                    />
+                    <img src={customerSupport1_006} alt="wish" />
                     <h3 className="heading-5 mt-35">Quality Support</h3>
                     <p className="enpix-body-text-2 mt-20">
                       Exercit ullamo quis nostrud ea laboris nisi ut aliqui duis
@@ -511,10 +518,7 @@ export default function Home() {
                 </div>
                 <div className="col-md-4">
                   <div className="speciality-box">
-                    <img
-                      src="/src/assets/img/home/speciality/005-layers1.svg"
-                      alt="wish"
-                    />
+                    <img src={layers1_005} alt="wish" />
                     <h3 className="heading-5 mt-35">Great Pricing</h3>
                     <p className="enpix-body-text-2 mt-20">
                       Exercit ullamo quis nostrud ea laboris nisi ut aliqui duis
@@ -569,10 +573,7 @@ export default function Home() {
               <div className="project-box">
                 <div className="project-thumbnail">
                   <a href="portfolio-details.html">
-                    <img
-                      src="/src/assets/img//home/projects/Rectangle925.png"
-                      alt="wish"
-                    />
+                    <img src={rectangle925} alt="wish" />
                   </a>
                 </div>
                 <div className="project-details pt-35">
@@ -613,10 +614,7 @@ export default function Home() {
               <div className="project-box">
                 <div className="project-thumbnail">
                   <a href="portfolio-details.html">
-                    <img
-                      src="/src/assets/img//home/projects/Rectangle926.png"
-                      alt="wish"
-                    />
+                    <img src={rectangle926} alt="wish" />
                   </a>
                 </div>
                 <div className="project-details pt-35">
@@ -657,10 +655,7 @@ export default function Home() {
               <div className="project-box">
                 <div className="project-thumbnail">
                   <a href="portfolio-details.html">
-                    <img
-                      src="/src/assets/img//home/projects/image.png"
-                      alt="wish"
-                    />
+                    <img src={image} alt="wish" />
                   </a>
                 </div>
                 <div className="project-details pt-35">
@@ -703,10 +698,7 @@ export default function Home() {
               <div className="project-box">
                 <div className="project-thumbnail">
                   <a href="portfolio-details.html">
-                    <img
-                      src="/src/assets/img//home/projects/image(1).png"
-                      alt="wish"
-                    />
+                    <img src={image1} alt="wish" />
                   </a>
                 </div>
                 <div className="project-details pt-35">
@@ -747,10 +739,7 @@ export default function Home() {
               <div className="project-box">
                 <div className="project-thumbnail">
                   <a href="portfolio-details.html">
-                    <img
-                      src="/src/assets/img//home/projects/image(2).png"
-                      alt="wish"
-                    />
+                    <img src={image2} alt="wish" />
                   </a>
                 </div>
                 <div className="project-details pt-35">
@@ -791,11 +780,7 @@ export default function Home() {
         </section>
 
         <section className="reviews-area pt-130 pb-130 relative">
-          <img
-            src="/src/assets/img/svg/Group34.svg"
-            alt="wish"
-            className="review-shape-circle"
-          />
+          <img src={group34_svg} alt="wish" className="review-shape-circle" />
           <img
             src={triangleShape}
             alt="wish"
@@ -815,7 +800,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-7 offset-xl-1">
-                <img src="/src/assets/img/svg/quote.svg" alt="wish" />
+                <img src={quote} alt="wish" />
                 <Splide
                   options={{
                     rewind: true,
@@ -935,10 +920,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="post-thumbnail">
                     <a href="blog-details.html">
-                      <img
-                        src="/src/assets/img/blog/Rectangle928.png"
-                        alt="enpix-blog"
-                      />
+                      <img src={rectangle928} alt="enpix-blog" />
                     </a>
                     <a className="category-badge" href="blog.html">
                       Grid Layout
@@ -984,10 +966,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="post-thumbnail">
                     <a href="blog-details.html">
-                      <img
-                        src="/src/assets/img/blog/Rectangle928(2).png"
-                        alt="enpix-blog"
-                      />
+                      <img src={rectangle928_2} alt="enpix-blog" />
                     </a>
                     <a className="category-badge" href="#">
                       Grid Layout
@@ -1033,10 +1012,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="post-thumbnail">
                     <a href="blog-details.html">
-                      <img
-                        src="/src/assets/img/blog/image(2).png"
-                        alt="enpix-blog"
-                      />
+                      <img src={imageBlog2} alt="enpix-blog" />
                     </a>
                     <a className="category-badge" href="#">
                       Grid Layout
@@ -1083,7 +1059,7 @@ export default function Home() {
 
         <div className="subscribe-form-area bg-white">
           <img
-            src="/src/assets/img/svg/Group34.svg"
+            src={group34_svg}
             alt="wish"
             className="subscribe-shape-circle"
           />
