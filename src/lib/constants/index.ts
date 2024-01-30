@@ -27,7 +27,7 @@ export const MENU = [
 ] as MenuItem[];
 
 export const Images = {
-  path: "/src/assets/img/svg/Path.svg",
+  path: "/svg/Path.svg",
   rectangle: "/src/assets/img/svg/Rectangle.svg",
   oval: "/src/assets/img/svg/Oval.svg",
   triangleShape: "/src/assets/img/svg/Trianglelineshape.svg",

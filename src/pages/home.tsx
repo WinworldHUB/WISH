@@ -32,7 +32,11 @@ export default function Home() {
                         <Link to="/apps">Go to Apps</Link>
                       </div>
 
-                      <img className="path-svg" src={Images.path} alt="wish" />
+                      <img
+                        className="path-svg"
+                        src={`/src/assets/img/${Images.path}`}
+                        alt="wish"
+                      />
                       <img
                         className="rectangle-svg"
                         src={Images.rectangle}
