@@ -33,6 +33,7 @@ export const Images = {
   triangleShape: "/src/assets/img/svg/Trianglelineshape.svg",
 
   banner1: "/src/assets/img/home/banner/banner-1.png",
+  banner2: "/src/assets/img/home/banner/banner-2.png",
   banner3: "/src/assets/img/home/banner/banner-3.png",
 
   ellipse13: "/src/assets/img/svg/Ellipse13.svg",
@@ -52,6 +53,11 @@ export const Images = {
   branding003_1: "/src/assets/img/home/services/003-branding1.svg",
   designTools1: "/src/assets/img/home/services/001-design-tools1.svg",
   pieChart1_004: "/src/assets/img/home/services/004-pie-chart1.svg",
+  shopify_sketch: "/src/assets/img/home/services/shopify-logo.png",
+  website_sketch: "/src/assets/img/home/services/website-sketch.png",
+  handshake_sketch: "/src/assets/img/home/services/handshake-sketch.png",
+  bulb_sketch: "/src/assets/img/home/services/bulb-sketch.png",
+  announcement_sketch: "/src/assets/img/home/services/announcement-sketch.png",
 
   Rectangle8: "/src/assets/img/svg/Rectangle8.svg",
   Rectangle920: "/src/assets/img/home/speciality/Rectangle920.png",

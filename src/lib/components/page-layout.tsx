@@ -1,15 +1,23 @@
+import { MENU } from "../constants";
 import PageFooter from "./page-footer";
 import PageMenu from "./page-menu";
 
 interface PageLayoutProps {
-  menu: MenuItem[];
+  activePageSlug: string;
   children: React.ReactNode;
 }
 
-const PageLayout: React.FC<PageLayoutProps> = ({ menu, children }) => {
+const PageLayout: React.FC<PageLayoutProps> = ({
+  activePageSlug,
+  children,
+}) => {
   return (
     <div>
-      <PageMenu menu={menu} activePageSlug="home" onPageChange={() => {}} />
+      <PageMenu
+        menu={MENU}
+        activePageSlug={activePageSlug}
+        onPageChange={() => {}}
+      />
       {children}
       <PageFooter />
     </div>

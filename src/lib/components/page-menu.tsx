@@ -40,7 +40,7 @@ const PageMenu: React.FC<PageMenuProps> = ({
                       item.slug === activePageSlug ? "current-menu-item" : ""
                     }
                   >
-                    <Link onClick={() => onPageChange(item.slug)} to="">
+                    <Link onClick={() => onPageChange(item.slug)} to={item.url}>
                       {item.title}{" "}
                     </Link>
                   </li>

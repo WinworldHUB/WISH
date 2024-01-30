@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import PageLayout from "../lib/components/page-layout";
-import { Images, MENU } from "../lib/constants/constants";
+import { Images } from "../lib/constants";
 // @ts-expect-error Splide library lacks type export
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
+import NumberScroller from "number-scroller";
 
 export default function Home() {
   return (
-    <PageLayout menu={MENU}>
+    <PageLayout activePageSlug="home">
       <main>
         <Splide
           options={{ rewind: true, autoplay: true, pagination: false }}
@@ -21,13 +22,14 @@ export default function Home() {
                     <div className="d-flex align-items-center h-100 relative">
                       <div className="banner-text">
                         <h1>
-                          Digital <span>product</span> design agency
+                          Digital <span>apps</span> design agency
                         </h1>
                         <p className="enpix-subtitle-2">
-                          Create live segments and target the right people for
-                          messages based on their behaviors.
+                          We design next generation apps on your choice of
+                          platforms. Checkout our apps in action in our{" "}
+                          <span>Apps</span> section.
                         </p>
-                        <a href="services.html">Get Started</a>
+                        <Link to="/apps">Go to Apps</Link>
                       </div>
 
                       <img className="path-svg" src={Images.path} alt="wish" />
@@ -70,62 +72,14 @@ export default function Home() {
                     <div className="d-flex align-items-center h-100 relative">
                       <div className="banner-text">
                         <h1>
-                          Digital <span>product</span> design agency
+                          Pro <span>team</span> to work with you
                         </h1>
                         <p className="enpix-subtitle-2">
-                          Create live segments and target the right people for
-                          messages based on their behaviors.
+                          In need of <span>skilled resources</span> to work with
+                          you, we got you covered. We provide professional
+                          staffing, resource outsourcing and teaming services.
                         </p>
-                        <a href="services.html">Get Started</a>
-                      </div>
-
-                      <img className="path-svg" src={Images.path} alt="wish" />
-                      <img
-                        className="rectangle-svg"
-                        src={Images.rectangle}
-                        alt="wish"
-                      />
-                      <img className="oval-svg" src={Images.oval} alt="wish" />
-                    </div>
-                  </div>
-                  <div className="col-lg-6 col-md-5">
-                    <div className="banner-image-area">
-                      <img
-                        className="banner-image"
-                        src={Images.banner1}
-                        alt="wish"
-                      />
-                      <div className="banner-image-svg relative">
-                        <img src={Images.ellipse14} alt="wish" />
-                        <img src={Images.ellipse13} alt="wish" />
-                      </div>
-
-                      <img
-                        className="fill-255"
-                        src={Images.group21}
-                        alt="wish"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </SplideSlide>
-          <SplideSlide>
-            <div className="banner-area">
-              <div className="container">
-                <div className="row">
-                  <div className="col-lg-6 col-md-7">
-                    <div className="d-flex align-items-center h-100 relative">
-                      <div className="banner-text">
-                        <h1>
-                          Digital <span>product</span> design agency
-                        </h1>
-                        <p className="enpix-subtitle-2">
-                          Create live segments and target the right people for
-                          messages based on their behaviors.
-                        </p>
-                        <a href="services.html">Get Started</a>
+                        <Link to="/services">Our Services</Link>
                       </div>
 
                       <img className="path-svg" src={Images.path} alt="wish" />
@@ -160,12 +114,62 @@ export default function Home() {
               </div>
             </div>
           </SplideSlide>
+          <SplideSlide>
+            <div className="banner-area">
+              <div className="container">
+                <div className="row">
+                  <div className="col-lg-6 col-md-7">
+                    <div className="d-flex align-items-center h-100 relative">
+                      <div className="banner-text">
+                        <h1>
+                          Need <span>product</span> funding?
+                        </h1>
+                        <p className="enpix-subtitle-2">
+                          Talk to us for your next{" "}
+                          <span>big dream project</span>. We can help you build
+                          it hand-in-hand together at each step of the journey.
+                        </p>
+                        <a href="services.html">Contact us</a>
+                      </div>
+
+                      <img className="path-svg" src={Images.path} alt="wish" />
+                      <img
+                        className="rectangle-svg"
+                        src={Images.rectangle}
+                        alt="wish"
+                      />
+                      <img className="oval-svg" src={Images.oval} alt="wish" />
+                    </div>
+                  </div>
+                  <div className="col-lg-6 col-md-5">
+                    <div className="banner-image-area">
+                      <img
+                        className="banner-image"
+                        src={Images.branding}
+                        alt="wish"
+                      />
+                      <div className="banner-image-svg relative">
+                        <img src={Images.ellipse14} alt="wish" />
+                        <img src={Images.ellipse13} alt="wish" />
+                      </div>
+
+                      <img
+                        className="fill-255"
+                        src={Images.group21}
+                        alt="wish"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </SplideSlide>
         </Splide>
 
         <section className="brands-logo-area pt-5 pb-70">
           <div className="container">
             <h2 className="heading-4 mb-70 text-center">
-              We are blessed to work with landing brands and companies
+              Our prestigious partners and clients
             </h2>
             <Splide
               options={{
@@ -200,14 +204,15 @@ export default function Home() {
             <div className="row services-header pt-120 pb-80">
               <div className="col-xl-5 col-md-6 wow animate__animated animate__fadeInLeft">
                 <h2 className="heading-1">
-                  Our included <span>service</span>.
+                  How we <span>can help</span>
                 </h2>
               </div>
               <div className="col-xl-5 col-md-6 offset-xl-2 wow animate__animated animate__fadeInRight">
                 <p className="enpix-subtitle-2 m-0">
-                  Aliquam tristique libero at dui sodales, et placerat orci
-                  lobortis. Donec metus lorem, vulputate at sapien sit amet,
-                  auctor iaculis lorem.
+                  Winworld Innovative Solutions Hub is a boutique technology
+                  services company. We provide services spanning from product
+                  designing and consulting to end to end delivery of software
+                  solutions including comprehensive maintenance and support.
                 </p>
               </div>
             </div>
@@ -227,9 +232,10 @@ export default function Home() {
                       <a href="services.html">Mobile Apps</a>
                     </h3>
                     <p className="enpix-body-text-2">
-                      We design professional looking yet simple Logo.
+                      Partner with us to <span>build mobile apps</span> for
+                      yourself or your customers.
                     </p>
-                    <a href="services.html">
+                    <Link to="/services">
                       <svg
                         width="37"
                         height="15"
@@ -244,19 +250,20 @@ export default function Home() {
                           strokeLinejoin="round"
                         />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xl-3 col-sm-6">
                   <div className="service-content">
                     <img src={Images.branding003_1} alt="wish" />
                     <h3 className="heading-5">
-                      <a href="services.html">Branding Strategy</a>
+                      <a href="services.html">Websites & Web Apps</a>
                     </h3>
                     <p className="enpix-body-text-2">
-                      We design professional looking yet simple Logo.
+                      We can help build, migrate, maintain, and even design your{" "}
+                      <span>websites and web apps</span>.
                     </p>
-                    <a href="services.html">
+                    <Link to="/services">
                       <svg
                         width="37"
                         height="15"
@@ -271,17 +278,18 @@ export default function Home() {
                           strokeLinejoin="round"
                         />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div className="col-xl-3 col-sm-6">
                   <div className="service-content">
-                    <img src={Images.designTools1} alt="wish" />
+                    <img src={Images.shopify_sketch} alt="wish" />
                     <h3 className="heading-5">
-                      <a href="services.html">Graphics Design</a>
+                      <a href="services.html">Shopify Apps</a>
                     </h3>
                     <p className="enpix-body-text-2">
-                      We design professional looking yet simple Logo.
+                      Checkout our Shopify App Catalog. We also do build{" "}
+                      <span>tailored Shopify Solutions</span>.
                     </p>
                     <a href="services.html">
                       <svg
@@ -305,12 +313,13 @@ export default function Home() {
                   <div className="service-content">
                     <img src={Images.pieChart1_004} alt="wish" />
                     <h3 className="heading-5">
-                      <a href="services.html">Online Marketing</a>
+                      <a href="services.html">Digital Marketing</a>
                     </h3>
                     <p className="enpix-body-text-2">
-                      We design professional looking yet simple Logo.
+                      We can help your website grow with our{" "}
+                      <span>digital marketing</span> and SEO services.
                     </p>
-                    <a href="services.html">
+                    <Link to="/services">
                       <svg
                         width="37"
                         height="15"
@@ -325,7 +334,7 @@ export default function Home() {
                           strokeLinejoin="round"
                         />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -345,7 +354,7 @@ export default function Home() {
                   />
                   <img
                     className="branding-image"
-                    src={Images.branding}
+                    src={Images.banner2}
                     alt="wish"
                   />
                 </div>
@@ -356,16 +365,17 @@ export default function Home() {
                     We've been helping <span>customers</span> globally.
                   </h2>
                   <p className="enpix-subtitle-2 mt-50">
-                    Aliquam tristique libero at dui sodales, et placerat orci
-                    lobortis. Donec metus lorem, vulputate at sapien sit amet,
-                    auctor iaculis lorem.
+                    With our branch office and partner network we can support
+                    your business wherever it is in the world. We are a{" "}
+                    <span>diverse cultured</span> organization with a global
+                    reach.
                   </p>
-                  <a
-                    href="about.html"
+                  <Link
+                    to="/about"
                     className="enpix-cta-transparent mt-80 d-inline-block wow animate__animated animate__flipInX animate__delay-1s"
                   >
                     More About Us
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -373,11 +383,9 @@ export default function Home() {
               <div className="col-sm-4 col-6 mx-auto">
                 <div className="countdown-box">
                   <div className="countdown">
-                    <span
-                      className="counter"
-                      data-from="0"
-                      data-to="100"
-                    ></span>
+                    <span>
+                      <NumberScroller from={0} to={100} />
+                    </span>
                     %
                   </div>
                   <div className="counter-text">
@@ -390,15 +398,13 @@ export default function Home() {
               <div className="col-sm-4 col-6 mx-auto">
                 <div className="countdown-box">
                   <div className="countdown">
-                    <span
-                      className="counter"
-                      data-from="0"
-                      data-to="300"
-                    ></span>
+                    <span>
+                      <NumberScroller from={0} to={26} />
+                    </span>
                   </div>
                   <div className="counter-text">
                     <p>
-                      employees on <br /> worldwide
+                      Customer Apps <br /> deployed
                     </p>
                   </div>
                 </div>
@@ -406,15 +412,13 @@ export default function Home() {
               <div className="col-sm-4 col-6 mx-auto">
                 <div className="countdown-box">
                   <div className="countdown">
-                    <span
-                      className="counter"
-                      data-from="0"
-                      data-to="1578"
-                    ></span>
+                    <span>
+                      <NumberScroller from={0} to={5000} step={20} />
+                    </span>
                   </div>
                   <div className="counter-text">
                     <p>
-                      projects completed <br /> on go countries
+                      hours of <br /> support provided
                     </p>
                   </div>
                 </div>
@@ -430,19 +434,19 @@ export default function Home() {
                 <div className="col-xl-5 col-lg-6 wow animate__animated animate__fadeInLeft">
                   <div className="speciality-text">
                     <h2 className="heading-1">
-                      Why you should choose <span>Enpix</span>?
+                      Why you should choose <span>us</span>?
                     </h2>
                     <p className="enpix-subtitle-2 mt-50">
-                      So how does it work? Let's check our Getting Started
-                      tutorial. It is a long established fact that a reader will
-                      be distracted.
+                      We are a team of multi-skilled professionals coming from
+                      diverse industry background bringing together loads of
+                      domain expertise.
                     </p>
-                    <a
-                      href="about.html"
+                    <Link
+                      to="/about"
                       className="mt-80 d-inline-block wow animate__animated animate__flipInX animate__delay-1s"
                     >
-                      Learn More
-                    </a>
+                      Partner with us
+                    </Link>
                   </div>
                 </div>
                 <div className="col-lg-6 wow animate__animated animate__fadeInRight">
@@ -491,7 +495,7 @@ export default function Home() {
               <div className="speciality-features row pt-130 wow animate__animated animate__fadeInUp">
                 <div className="col-md-4">
                   <div className="speciality-box">
-                    <img src={Images.layers1_005} alt="wish" />
+                    <img src={Images.handshake_sketch} alt="wish" />
                     <h3 className="heading-5 mt-35">Friendly Interface</h3>
                     <p className="enpix-body-text-2 mt-20">
                       Exercit ullamo quis nostrud ea laboris nisi ut aliqui duis
@@ -501,7 +505,7 @@ export default function Home() {
                 </div>
                 <div className="col-md-4">
                   <div className="speciality-box">
-                    <img src={Images.customerSupport1_006} alt="wish" />
+                    <img src={Images.bulb_sketch} alt="wish" />
                     <h3 className="heading-5 mt-35">Quality Support</h3>
                     <p className="enpix-body-text-2 mt-20">
                       Exercit ullamo quis nostrud ea laboris nisi ut aliqui duis
@@ -511,7 +515,7 @@ export default function Home() {
                 </div>
                 <div className="col-md-4">
                   <div className="speciality-box">
-                    <img src={Images.layers1_005} alt="wish" />
+                    <img src={Images.announcement_sketch} alt="wish" />
                     <h3 className="heading-5 mt-35">Great Pricing</h3>
                     <p className="enpix-body-text-2 mt-20">
                       Exercit ullamo quis nostrud ea laboris nisi ut aliqui duis
