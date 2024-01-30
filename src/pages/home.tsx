@@ -1,10 +1,51 @@
 import { Link } from "react-router-dom";
 import PageLayout from "../lib/components/page-layout";
-import { Images } from "../lib/constants";
 // @ts-expect-error Splide library lacks type export
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import NumberScroller from "number-scroller";
+
+import path from "/svg/Path.svg";
+import rectangle from "/src/ fromsets/img/svg/Rectangle.svg";
+import oval from "/src/ fromsets/img/svg/Oval.svg";
+import triangleShape from "/src/ fromsets/img/svg/Trianglelineshape.svg";
+
+import banner1 from "/src/ fromsets/img/home/banner/banner-1.png";
+import banner2 from "/src/ fromsets/img/home/banner/banner-2.png";
+import banner3 from "/src/ fromsets/img/home/banner/banner-3.png";
+
+import ellipse13 from "/src/ fromsets/img/svg/Ellipse13.svg";
+import ellipse14 from "/src/ fromsets/img/svg/Ellipse14.svg";
+import group21 from "/src/ fromsets/img/home/banner/Group21.svg";
+import group34 from "/src/ fromsets/img/home/services/Group34.svg";
+import group34_svg from "/src/ fromsets/img/svg/Group34.svg";
+
+import logo1 from "/src/ fromsets/img/home/companies-logo/Logo-1.svg";
+import logo2 from "/src/ fromsets/img/home/companies-logo/Logo-2.svg";
+import logo3 from "/src/ fromsets/img/home/companies-logo/Logo-3.svg";
+import logo4 from "/src/ fromsets/img/home/companies-logo/Logo-4.svg";
+import logo5 from "/src/ fromsets/img/home/companies-logo/Logo-5.svg";
+
+import icon from "/src/ fromsets/img/home/services/icon.svg";
+import branding from "/src/ fromsets/img/home/global-branding/branding.png";
+import branding003_1 from "/src/ fromsets/img/home/services/003-branding1.svg";
+import pieChart1_004 from "/src/ fromsets/img/home/services/004-pie-chart1.svg";
+import shopify_sketch from "/src/ fromsets/img/home/services/shopify-logo.png";
+import handshake_sketch from "/src/ fromsets/img/home/services/handshake-sketch.png";
+import bulb_sketch from "/src/ fromsets/img/home/services/bulb-sketch.png";
+import announcement_sketch from "/src/ fromsets/img/home/services/announcement-sketch.png";
+
+import Rectangle8 from "/src/ fromsets/img/svg/Rectangle8.svg";
+import Rectangle920 from "/src/ fromsets/img/home/speciality/Rectangle920.png";
+import rectangle925 from "/src/ fromsets/img/home/projects/Rectangle925.png";
+import rectangle926 from "/src/ fromsets/img/home/projects/Rectangle926.png";
+import rectangle928 from "/src/ fromsets/img/blog/Rectangle928.png";
+import rectangle928_2 from "/src/ fromsets/img/blog/Rectangle928(2).png";
+import image from "/src/ fromsets/img/home/projects/image.png";
+import image1 from "/src/ fromsets/img/home/projects/image(1).png";
+import image2 from "/src/ fromsets/img/home/projects/image(2).png";
+import quote from "/src/ fromsets/img/svg/quote.svg";
+import imageBlog2 from "/src/ fromsets/img/blog/image(2).png";
 
 export default function Home() {
   return (
@@ -32,36 +73,24 @@ export default function Home() {
                         <Link to="/apps">Go to Apps</Link>
                       </div>
 
-                      <img
-                        className="path-svg"
-                        src={`/src/assets/img/${Images.path}`}
-                        alt="wish"
-                      />
+                      <img className="path-svg" src={path} alt="wish" />
                       <img
                         className="rectangle-svg"
-                        src={Images.rectangle}
+                        src={rectangle}
                         alt="wish"
                       />
-                      <img className="oval-svg" src={Images.oval} alt="wish" />
+                      <img className="oval-svg" src={oval} alt="wish" />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-5">
                     <div className="banner-image-area">
-                      <img
-                        className="banner-image"
-                        src={Images.banner1}
-                        alt="wish"
-                      />
+                      <img className="banner-image" src={banner1} alt="wish" />
                       <div className="banner-image-svg relative">
-                        <img src={Images.ellipse14} alt="wish" />
-                        <img src={Images.ellipse13} alt="wish" />
+                        <img src={ellipse14} alt="wish" />
+                        <img src={ellipse13} alt="wish" />
                       </div>
 
-                      <img
-                        className="fill-255"
-                        src={Images.group21}
-                        alt="wish"
-                      />
+                      <img className="fill-255" src={group21} alt="wish" />
                     </div>
                   </div>
                 </div>
@@ -86,32 +115,24 @@ export default function Home() {
                         <Link to="/services">Our Services</Link>
                       </div>
 
-                      <img className="path-svg" src={Images.path} alt="wish" />
+                      <img className="path-svg" src={path} alt="wish" />
                       <img
                         className="rectangle-svg"
-                        src={Images.rectangle}
+                        src={rectangle}
                         alt="wish"
                       />
-                      <img className="oval-svg" src={Images.oval} alt="wish" />
+                      <img className="oval-svg" src={oval} alt="wish" />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-5">
                     <div className="banner-image-area">
-                      <img
-                        className="banner-image"
-                        src={Images.banner3}
-                        alt="wish"
-                      />
+                      <img className="banner-image" src={banner3} alt="wish" />
                       <div className="banner-image-svg relative">
-                        <img src={Images.ellipse14} alt="wish" />
-                        <img src={Images.ellipse13} alt="wish" />
+                        <img src={ellipse14} alt="wish" />
+                        <img src={ellipse13} alt="wish" />
                       </div>
 
-                      <img
-                        className="fill-255"
-                        src={Images.group21}
-                        alt="wish"
-                      />
+                      <img className="fill-255" src={group21} alt="wish" />
                     </div>
                   </div>
                 </div>
@@ -136,32 +157,24 @@ export default function Home() {
                         <a href="services.html">Contact us</a>
                       </div>
 
-                      <img className="path-svg" src={Images.path} alt="wish" />
+                      <img className="path-svg" src={path} alt="wish" />
                       <img
                         className="rectangle-svg"
-                        src={Images.rectangle}
+                        src={rectangle}
                         alt="wish"
                       />
-                      <img className="oval-svg" src={Images.oval} alt="wish" />
+                      <img className="oval-svg" src={oval} alt="wish" />
                     </div>
                   </div>
                   <div className="col-lg-6 col-md-5">
                     <div className="banner-image-area">
-                      <img
-                        className="banner-image"
-                        src={Images.branding}
-                        alt="wish"
-                      />
+                      <img className="banner-image" src={branding} alt="wish" />
                       <div className="banner-image-svg relative">
-                        <img src={Images.ellipse14} alt="wish" />
-                        <img src={Images.ellipse13} alt="wish" />
+                        <img src={ellipse14} alt="wish" />
+                        <img src={ellipse13} alt="wish" />
                       </div>
 
-                      <img
-                        className="fill-255"
-                        src={Images.group21}
-                        alt="wish"
-                      />
+                      <img className="fill-255" src={group21} alt="wish" />
                     </div>
                   </div>
                 </div>
@@ -185,19 +198,19 @@ export default function Home() {
               }}
             >
               <SplideSlide>
-                <img src={Images.logo1} alt="wish" />
+                <img src={logo1} alt="wish" />
               </SplideSlide>
               <SplideSlide>
-                <img src={Images.logo2} alt="wish" />
+                <img src={logo2} alt="wish" />
               </SplideSlide>
               <SplideSlide>
-                <img src={Images.logo3} alt="wish" />
+                <img src={logo3} alt="wish" />
               </SplideSlide>
               <SplideSlide>
-                <img src={Images.logo4} alt="wish" />
+                <img src={logo4} alt="wish" />
               </SplideSlide>
               <SplideSlide>
-                <img src={Images.logo5} alt="wish" />
+                <img src={logo5} alt="wish" />
               </SplideSlide>
             </Splide>
           </div>
@@ -222,16 +235,12 @@ export default function Home() {
             </div>
 
             <div className="relative">
-              <img className="circle-shape" src={Images.group34} alt="wish" />
-              <img
-                className="triangle-shape"
-                src={Images.triangleShape}
-                alt="wish"
-              />
+              <img className="circle-shape" src={group34} alt="wish" />
+              <img className="triangle-shape" src={triangleShape} alt="wish" />
               <div className="row wow animate__animated animate__fadeInUp animate__delay-1s">
                 <div className="col-xl-3 col-sm-6">
                   <div className="service-content">
-                    <img src={Images.icon} alt="wish" />
+                    <img src={icon} alt="wish" />
                     <h3 className="heading-5">
                       <a href="services.html">Mobile Apps</a>
                     </h3>
@@ -259,7 +268,7 @@ export default function Home() {
                 </div>
                 <div className="col-xl-3 col-sm-6">
                   <div className="service-content">
-                    <img src={Images.branding003_1} alt="wish" />
+                    <img src={branding003_1} alt="wish" />
                     <h3 className="heading-5">
                       <a href="services.html">Websites & Web Apps</a>
                     </h3>
@@ -287,7 +296,7 @@ export default function Home() {
                 </div>
                 <div className="col-xl-3 col-sm-6">
                   <div className="service-content">
-                    <img src={Images.shopify_sketch} alt="wish" />
+                    <img src={shopify_sketch} alt="wish" />
                     <h3 className="heading-5">
                       <a href="services.html">Shopify Apps</a>
                     </h3>
@@ -315,7 +324,7 @@ export default function Home() {
                 </div>
                 <div className="col-xl-3 col-sm-6">
                   <div className="service-content">
-                    <img src={Images.pieChart1_004} alt="wish" />
+                    <img src={pieChart1_004} alt="wish" />
                     <h3 className="heading-5">
                       <a href="services.html">Digital Marketing</a>
                     </h3>
@@ -353,14 +362,10 @@ export default function Home() {
                 <div className="branding-image-container relative">
                   <img
                     className="branding-image-shape"
-                    src={Images.group21}
+                    src={group21}
                     alt="wish"
                   />
-                  <img
-                    className="branding-image"
-                    src={Images.banner2}
-                    alt="wish"
-                  />
+                  <img className="branding-image" src={banner2} alt="wish" />
                 </div>
               </div>
               <div className="col-md-6 wow animate__animated animate__fadeInRight">
@@ -457,17 +462,17 @@ export default function Home() {
                   <div className="speciality-video-thumbnail-container relative">
                     <img
                       className="speciality-video-shape"
-                      src={Images.group21}
+                      src={group21}
                       alt="wish"
                     />
                     <img
                       className="speciality-video-triangle"
-                      src={Images.Rectangle8}
+                      src={Rectangle8}
                       alt="wish"
                     />
                     <img
                       className="speciality-video-thumbnail"
-                      src={Images.Rectangle920}
+                      src={Rectangle920}
                       alt="wish"
                     />
                     <div className="video-play-icon">
@@ -499,7 +504,7 @@ export default function Home() {
               <div className="speciality-features row pt-130 wow animate__animated animate__fadeInUp">
                 <div className="col-md-4">
                   <div className="speciality-box">
-                    <img src={Images.handshake_sketch} alt="wish" />
+                    <img src={handshake_sketch} alt="wish" />
                     <h3 className="heading-5 mt-35">Friendly Interface</h3>
                     <p className="enpix-body-text-2 mt-20">
                       Exercit ullamo quis nostrud ea laboris nisi ut aliqui duis
@@ -509,7 +514,7 @@ export default function Home() {
                 </div>
                 <div className="col-md-4">
                   <div className="speciality-box">
-                    <img src={Images.bulb_sketch} alt="wish" />
+                    <img src={bulb_sketch} alt="wish" />
                     <h3 className="heading-5 mt-35">Quality Support</h3>
                     <p className="enpix-body-text-2 mt-20">
                       Exercit ullamo quis nostrud ea laboris nisi ut aliqui duis
@@ -519,7 +524,7 @@ export default function Home() {
                 </div>
                 <div className="col-md-4">
                   <div className="speciality-box">
-                    <img src={Images.announcement_sketch} alt="wish" />
+                    <img src={announcement_sketch} alt="wish" />
                     <h3 className="heading-5 mt-35">Great Pricing</h3>
                     <p className="enpix-body-text-2 mt-20">
                       Exercit ullamo quis nostrud ea laboris nisi ut aliqui duis
@@ -574,7 +579,7 @@ export default function Home() {
               <div className="project-box">
                 <div className="project-thumbnail">
                   <a href="portfolio-details.html">
-                    <img src={Images.rectangle925} alt="wish" />
+                    <img src={rectangle925} alt="wish" />
                   </a>
                 </div>
                 <div className="project-details pt-35">
@@ -615,7 +620,7 @@ export default function Home() {
               <div className="project-box">
                 <div className="project-thumbnail">
                   <a href="portfolio-details.html">
-                    <img src={Images.rectangle926} alt="wish" />
+                    <img src={rectangle926} alt="wish" />
                   </a>
                 </div>
                 <div className="project-details pt-35">
@@ -656,7 +661,7 @@ export default function Home() {
               <div className="project-box">
                 <div className="project-thumbnail">
                   <a href="portfolio-details.html">
-                    <img src={Images.image} alt="wish" />
+                    <img src={image} alt="wish" />
                   </a>
                 </div>
                 <div className="project-details pt-35">
@@ -699,7 +704,7 @@ export default function Home() {
               <div className="project-box">
                 <div className="project-thumbnail">
                   <a href="portfolio-details.html">
-                    <img src={Images.image1} alt="wish" />
+                    <img src={image1} alt="wish" />
                   </a>
                 </div>
                 <div className="project-details pt-35">
@@ -740,7 +745,7 @@ export default function Home() {
               <div className="project-box">
                 <div className="project-thumbnail">
                   <a href="portfolio-details.html">
-                    <img src={Images.image2} alt="wish" />
+                    <img src={image2} alt="wish" />
                   </a>
                 </div>
                 <div className="project-details pt-35">
@@ -781,13 +786,9 @@ export default function Home() {
         </section>
 
         <section className="reviews-area pt-130 pb-130 relative">
+          <img src={group34_svg} alt="wish" className="review-shape-circle" />
           <img
-            src={Images.group34_svg}
-            alt="wish"
-            className="review-shape-circle"
-          />
-          <img
-            src={Images.triangleShape}
+            src={triangleShape}
             alt="wish"
             className="review-shape-triangle"
           />
@@ -805,7 +806,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-xl-6 col-lg-7 offset-xl-1">
-                <img src={Images.quote} alt="wish" />
+                <img src={quote} alt="wish" />
                 <Splide
                   options={{
                     rewind: true,
@@ -925,7 +926,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="post-thumbnail">
                     <a href="blog-details.html">
-                      <img src={Images.rectangle928} alt="enpix-blog" />
+                      <img src={rectangle928} alt="enpix-blog" />
                     </a>
                     <a className="category-badge" href="blog.html">
                       Grid Layout
@@ -971,7 +972,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="post-thumbnail">
                     <a href="blog-details.html">
-                      <img src={Images.rectangle928_2} alt="enpix-blog" />
+                      <img src={rectangle928_2} alt="enpix-blog" />
                     </a>
                     <Link className="category-badge" to="">
                       Grid Layout
@@ -1017,7 +1018,7 @@ export default function Home() {
                 <div className="relative">
                   <div className="post-thumbnail">
                     <a href="blog-details.html">
-                      <img src={Images.imageBlog2} alt="enpix-blog" />
+                      <img src={imageBlog2} alt="enpix-blog" />
                     </a>
                     <Link className="category-badge" to="">
                       Grid Layout
@@ -1064,7 +1065,7 @@ export default function Home() {
 
         <div className="subscribe-form-area bg-white">
           <img
-            src={Images.group34_svg}
+            src={group34_svg}
             alt="wish"
             className="subscribe-shape-circle"
           />
