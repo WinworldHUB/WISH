@@ -5,47 +5,47 @@ import { Splide, SplideSlide } from "@splidejs/react-splide";
 import "@splidejs/react-splide/css";
 import NumberScroller from "number-scroller";
 
-import path from "/svg/Path.svg";
-import rectangle from "/src/ fromsets/img/svg/Rectangle.svg";
-import oval from "/src/ fromsets/img/svg/Oval.svg";
-import triangleShape from "/src/ fromsets/img/svg/Trianglelineshape.svg";
+import path from "/src/assets/img/svg/Path.svg";
+import rectangle from "/src/assets/img/svg/Rectangle.svg";
+import oval from "/src/assets/img/svg/Oval.svg";
+import triangleShape from "/src/assets/img/svg/Trianglelineshape.svg";
 
-import banner1 from "/src/ fromsets/img/home/banner/banner-1.png";
-import banner2 from "/src/ fromsets/img/home/banner/banner-2.png";
-import banner3 from "/src/ fromsets/img/home/banner/banner-3.png";
+import banner1 from "/src/assets/img/home/banner/banner-1.png";
+import banner2 from "/src/assets/img/home/banner/banner-2.png";
+import banner3 from "/src/assets/img/home/banner/banner-3.png";
 
-import ellipse13 from "/src/ fromsets/img/svg/Ellipse13.svg";
-import ellipse14 from "/src/ fromsets/img/svg/Ellipse14.svg";
-import group21 from "/src/ fromsets/img/home/banner/Group21.svg";
-import group34 from "/src/ fromsets/img/home/services/Group34.svg";
-import group34_svg from "/src/ fromsets/img/svg/Group34.svg";
+import ellipse13 from "/src/assets/img/svg/Ellipse13.svg";
+import ellipse14 from "/src/assets/img/svg/Ellipse14.svg";
+import group21 from "/src/assets/img/home/banner/Group21.svg";
+import group34 from "/src/assets/img/home/services/Group34.svg";
+import group34_svg from "/src/assets/img/svg/Group34.svg";
 
-import logo1 from "/src/ fromsets/img/home/companies-logo/Logo-1.svg";
-import logo2 from "/src/ fromsets/img/home/companies-logo/Logo-2.svg";
-import logo3 from "/src/ fromsets/img/home/companies-logo/Logo-3.svg";
-import logo4 from "/src/ fromsets/img/home/companies-logo/Logo-4.svg";
-import logo5 from "/src/ fromsets/img/home/companies-logo/Logo-5.svg";
+import logo1 from "/src/assets/img/home/companies-logo/Logo-1.svg";
+import logo2 from "/src/assets/img/home/companies-logo/Logo-2.svg";
+import logo3 from "/src/assets/img/home/companies-logo/Logo-3.svg";
+import logo4 from "/src/assets/img/home/companies-logo/Logo-4.svg";
+import logo5 from "/src/assets/img/home/companies-logo/Logo-5.svg";
 
-import icon from "/src/ fromsets/img/home/services/icon.svg";
-import branding from "/src/ fromsets/img/home/global-branding/branding.png";
-import branding003_1 from "/src/ fromsets/img/home/services/003-branding1.svg";
-import pieChart1_004 from "/src/ fromsets/img/home/services/004-pie-chart1.svg";
-import shopify_sketch from "/src/ fromsets/img/home/services/shopify-logo.png";
-import handshake_sketch from "/src/ fromsets/img/home/services/handshake-sketch.png";
-import bulb_sketch from "/src/ fromsets/img/home/services/bulb-sketch.png";
-import announcement_sketch from "/src/ fromsets/img/home/services/announcement-sketch.png";
+import icon from "/src/assets/img/home/services/icon.svg";
+import branding from "/src/assets/img/home/global-branding/branding.png";
+import branding003_1 from "/src/assets/img/home/services/003-branding1.svg";
+import pieChart1_004 from "/src/assets/img/home/services/004-pie-chart1.svg";
+import shopify_sketch from "/src/assets/img/home/services/shopify-logo.png";
+import handshake_sketch from "/src/assets/img/home/services/handshake-sketch.png";
+import bulb_sketch from "/src/assets/img/home/services/bulb-sketch.png";
+import announcement_sketch from "/src/assets/img/home/services/announcement-sketch.png";
 
-import Rectangle8 from "/src/ fromsets/img/svg/Rectangle8.svg";
-import Rectangle920 from "/src/ fromsets/img/home/speciality/Rectangle920.png";
-import rectangle925 from "/src/ fromsets/img/home/projects/Rectangle925.png";
-import rectangle926 from "/src/ fromsets/img/home/projects/Rectangle926.png";
-import rectangle928 from "/src/ fromsets/img/blog/Rectangle928.png";
-import rectangle928_2 from "/src/ fromsets/img/blog/Rectangle928(2).png";
-import image from "/src/ fromsets/img/home/projects/image.png";
-import image1 from "/src/ fromsets/img/home/projects/image(1).png";
-import image2 from "/src/ fromsets/img/home/projects/image(2).png";
-import quote from "/src/ fromsets/img/svg/quote.svg";
-import imageBlog2 from "/src/ fromsets/img/blog/image(2).png";
+import Rectangle8 from "/src/assets/img/svg/Rectangle8.svg";
+import Rectangle920 from "/src/assets/img/home/speciality/Rectangle920.png";
+import rectangle925 from "/src/assets/img/home/projects/Rectangle925.png";
+import rectangle926 from "/src/assets/img/home/projects/Rectangle926.png";
+import rectangle928 from "/src/assets/img/blog/Rectangle928.png";
+import rectangle928_2 from "/src/assets/img/blog/Rectangle928(2).png";
+import image from "/src/assets/img/home/projects/image.png";
+import image1 from "/src/assets/img/home/projects/image(1).png";
+import image2 from "/src/assets/img/home/projects/image(2).png";
+import quote from "/src/assets/img/svg/quote.svg";
+import imageBlog2 from "/src/assets/img/blog/image(2).png";
 
 export default function Home() {
   return (
