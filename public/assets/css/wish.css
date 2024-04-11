@@ -7,8 +7,14 @@
   background-repeat: no-repeat;
   background-image: url(image.png) !important;
 }
-.tra-menu .wsmainfull.scroll {
+.tra-menu .wsmainfull.scroll1 {
   background-color: transparent !important;
+}
+
+.tra-menu .wsmainfull.scroll {
+  -webkit-box-shadow: 10px 10px 40px 0px rgba(230, 230, 230, 1);
+  -moz-box-shadow: 10px 10px 40px 0px rgba(230, 230, 230, 1);
+  box-shadow: 10px 10px 40px 0px rgba(230, 230, 230, 1);
 }
 
 .dropdown-style {
