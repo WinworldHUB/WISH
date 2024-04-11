@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { Link } from "react-router-dom";
 
 const PageMenu: FC = () => {
   return (
@@ -9,9 +10,9 @@ const PageMenu: FC = () => {
           <span className="smllogo">
             <img src="images/logo-01.png" alt="mobile-logo" />
           </span>
-          <a id="wsnavtoggle" className="wsanimated-arrow">
+          <Link id="wsnavtoggle" className="wsanimated-arrow" to="">
             <span />
-          </a>
+          </Link>
         </div>
         {/* NAVIGATION MENU */}
         <div className="wsmainfull menu clearfix">
