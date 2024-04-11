@@ -3,7 +3,7 @@ import { FC } from "react";
 const PageMenu: FC = () => {
   return (
     <header id="header" className="header tra-menu navbar-dark">
-      <div className="header-wrapper">
+      <div className="header-wrapper effect-holder">
         {/* MOBILE HEADER */}
         <div className="wsmobileheader clearfix">
           <span className="smllogo">
@@ -14,7 +14,7 @@ const PageMenu: FC = () => {
           </a>
         </div>
         {/* NAVIGATION MENU */}
-        <div className="wsmainfull menu clearfix">
+        <div className="wsmainfull menu clearfix dropdown-style">
           <div className="wsmainwp clearfix">
             {/* HEADER LOGO */}
             <div className="desktoplogo">
