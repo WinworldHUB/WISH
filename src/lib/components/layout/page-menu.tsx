@@ -32,7 +32,7 @@ const PageMenu: FC = () => {
             <nav className="wsmenu clearfix">
               <ul className="wsmenu-list nav-violet-red-hover">
                 {/* MEGAMENU */}
-                <li aria-haspopup="true" className="mg_link">
+                <li className="mg_link">
                   <a href="demo-13.html#">
                     Home <span className="wsarrow" />
                   </a>
@@ -141,36 +141,36 @@ const PageMenu: FC = () => {
                 </li>{" "}
                 {/* END MEGAMENU */}
                 {/* DROPDOWN MENU */}
-                <li aria-haspopup="true">
+                <li>
                   <a href="demo-13.html#">
                     About <span className="wsarrow" />
                   </a>
                   <ul className="sub-menu">
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="demo-13.html#features-1">Why OLMO?</a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="demo-13.html#features-8">Best Solutions</a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="demo-13.html#content-6">Integrations</a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="demo-13.html#content-9">How It Works</a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="demo-13.html#features-4">Core Features</a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="demo-13.html#content-3">Internal Tools</a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="demo-13.html#reviews-1">What People Say</a>
                     </li>
                   </ul>
                 </li>
                 {/* DROPDOWN MENU */}
-                <li aria-haspopup="true">
+                <li>
                   <a href="demo-13.html#">
                     Pages <span className="wsarrow" />
                   </a>
@@ -225,47 +225,47 @@ const PageMenu: FC = () => {
                 </li>{" "}
                 {/* END DROPDOWN MENU */}
                 {/* DROPDOWN MENU */}
-                <li aria-haspopup="true">
+                <li>
                   <a href="demo-13.html#">
                     Auth Pages <span className="wsarrow" />
                   </a>
                   <ul className="sub-menu">
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="login-simple.html">
                         Login Simple <span>NEW</span>
                       </a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="login-boxed.html">
                         Login Boxed <span>NEW</span>
                       </a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="login-image.html">
                         Login Image <span>NEW</span>
                       </a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="signup-simple.html">
                         Signup Simple <span>NEW</span>
                       </a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="signup-boxed.html">
                         Signup Boxed <span>NEW</span>
                       </a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="signup-image.html">
                         Signup Image <span>NEW</span>
                       </a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="reset-password-1.html">
                         Reset Pass. #1 <span>NEW</span>
                       </a>
                     </li>
-                    <li aria-haspopup="true">
+                    <li>
                       <a href="reset-password-2.html">
                         Reset Pass. #2 <span>NEW</span>
                       </a>
@@ -273,15 +273,15 @@ const PageMenu: FC = () => {
                   </ul>
                 </li>
                 {/* SIMPLE NAVIGATION LINK */}
-                <li className="nl-simple" aria-haspopup="true">
+                <li className="nl-simple">
                   <a href="demo-13.html#projects-2">Projects</a>
                 </li>
                 {/* SIMPLE NAVIGATION LINK */}
-                <li className="nl-simple" aria-haspopup="true">
+                <li className="nl-simple">
                   <a href="demo-13.html#pricing-3">Pricing</a>
                 </li>
                 {/* HEADER BUTTON */}
-                <li className="nl-simple" aria-haspopup="true">
+                <li className="nl-simple">
                   <a
                     href="demo-13.html#cta-6"
                     className="btn btn-violet-red tra-violet-red-hover last-link"
@@ -290,7 +290,7 @@ const PageMenu: FC = () => {
                   </a>
                 </li>
                 {/* HEADER SOCIAL LINKS 													
-									<li class="nl-simple white-color header-socials ico-20 clearfix" aria-haspopup="true">
+									<li class="nl-simple white-color header-socials ico-20 clearfix" >
 										<span><a href="#" class="ico-facebook"><span class="flaticon-facebook"></span></a></span>
 										<span><a href="#" class="ico-twitter"><span class="flaticon-twitter"></span></a></span>
 										<span><a href="#" class="ico-instagram"><span class="flaticon-instagram"></span></a></span>
