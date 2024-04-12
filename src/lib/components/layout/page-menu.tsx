@@ -9,7 +9,7 @@ interface AppMenuProps {
 const AppMenu: FC<AppMenuProps> = ({ menuItems, isSubMenu = false }) => {
   const renderMenu = () =>
     menuItems.map((menuItem) => (
-      <li key={menuItem.title} aria-haspopup="true">
+      <li key={menuItem.title}>
         <Link to={menuItem.route}>
           {menuItem.title}{" "}
           {menuItem.subMenuItems?.length > 0 && (
