@@ -12,9 +12,9 @@
 }
 
 .tra-menu .wsmainfull.scroll {
-  -webkit-box-shadow: 10px 10px 40px 10px rgba(30, 30, 30, 1);
-  -moz-box-shadow: 10px 10px 40px 10px rgba(30, 30, 30, 1);
-  box-shadow: 10px 10px 40px 10px rgba(30, 30, 30, 1);
+  -webkit-box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 10px 10px 40px 0px rgba(0, 0, 0, 0.2);
 }
 
 .dropdown-style {
