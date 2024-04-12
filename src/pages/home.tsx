@@ -57,7 +57,7 @@ const Home: FC = () => {
                 <img
                   className="img-fluid"
                   src="/assets/images/dashboard-04.png"
-                  alt="hero-image"
+                  alt=""
                 />
               </div>
             </div>
@@ -161,7 +161,7 @@ const Home: FC = () => {
                 <img
                   className="img-fluid"
                   src="/assets/images/img-08.png"
-                  alt="video-preview"
+                  alt=""
                 />
               </div>
             </div>
@@ -231,7 +231,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images/img-21.png"
-                      alt="feature-icon"
+                      alt=""
                     />
                   </div>
                   {/* Title */}
@@ -251,7 +251,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images/img-22.png"
-                      alt="feature-icon"
+                      alt=""
                     />
                   </div>
                   {/* Title */}
@@ -271,7 +271,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images/img-24.png"
-                      alt="feature-icon"
+                      alt=""
                     />
                   </div>
                   {/* Title */}
@@ -390,7 +390,7 @@ const Home: FC = () => {
                 <img
                   className="img-fluid"
                   src="/assets/images//img-19.png"
-                  alt="content-image"
+                  alt=""
                 />
               </div>
             </div>
@@ -438,7 +438,7 @@ const Home: FC = () => {
                 <img
                   className="img-fluid"
                   src="/assets/images//dashboard-07.png"
-                  alt="video-preview"
+                  alt=""
                 />
               </div>
             </div>
@@ -635,7 +635,7 @@ const Home: FC = () => {
                   <img
                     className="img-fluid"
                     src="/assets/images//img-10.png"
-                    alt="content-image"
+                    alt=""
                   />
                 </div>
               </div>
@@ -674,7 +674,7 @@ const Home: FC = () => {
                   <img
                     className="img-fluid"
                     src="/assets/images//img-06.png"
-                    alt="content-image"
+                    alt=""
                   />
                 </div>
               </div>
@@ -757,7 +757,7 @@ const Home: FC = () => {
                   <img
                     className="img-fluid"
                     src="/assets/images//img-09.png"
-                    alt="content-image"
+                    alt=""
                   />
                 </div>
               </div>
@@ -796,7 +796,7 @@ const Home: FC = () => {
                       <img
                         className="img-fluid"
                         src="/assets/images//projects/project-05.jpg"
-                        alt="project-preview"
+                        alt=""
                       />
                       <div className="item-overlay" />
                     </div>
@@ -822,7 +822,7 @@ const Home: FC = () => {
                       <img
                         className="img-fluid"
                         src="/assets/images//projects/project-02.jpg"
-                        alt="project-preview"
+                        alt=""
                       />
                       <div className="item-overlay" />
                     </div>
@@ -848,7 +848,7 @@ const Home: FC = () => {
                       <img
                         className="img-fluid"
                         src="/assets/images//projects/project-04.jpg"
-                        alt="project-preview"
+                        alt=""
                       />
                       <div className="item-overlay" />
                     </div>
@@ -874,7 +874,7 @@ const Home: FC = () => {
                       <img
                         className="img-fluid"
                         src="/assets/images//projects/project-01.jpg"
-                        alt="project-preview"
+                        alt=""
                       />
                       <div className="item-overlay" />
                     </div>
@@ -900,7 +900,7 @@ const Home: FC = () => {
                       <img
                         className="img-fluid"
                         src="/assets/images//projects/project-03.jpg"
-                        alt="project-preview"
+                        alt=""
                       />
                       <div className="item-overlay" />
                     </div>
@@ -926,7 +926,7 @@ const Home: FC = () => {
                       <img
                         className="img-fluid"
                         src="/assets/images//projects/project-06.jpg"
-                        alt="project-preview"
+                        alt=""
                       />
                       <div className="item-overlay" />
                     </div>
@@ -1065,10 +1065,7 @@ const Home: FC = () => {
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/assets/images//review-author-1.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/assets/images//review-author-1.jpg" alt="" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -1108,10 +1105,7 @@ const Home: FC = () => {
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/assets/images//review-author-2.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/assets/images//review-author-2.jpg" alt="" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -1150,10 +1144,7 @@ const Home: FC = () => {
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/assets/images//review-author-3.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/assets/images//review-author-3.jpg" alt="" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -1192,10 +1183,7 @@ const Home: FC = () => {
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/assets/images//review-author-4.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/assets/images//review-author-4.jpg" alt="" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -1235,10 +1223,7 @@ const Home: FC = () => {
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/assets/images//review-author-5.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/assets/images//review-author-5.jpg" alt="" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -1277,10 +1262,7 @@ const Home: FC = () => {
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/assets/images//review-author-6.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/assets/images//review-author-6.jpg" alt="" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -1319,10 +1301,7 @@ const Home: FC = () => {
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/assets/images//review-author-7.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/assets/images//review-author-7.jpg" alt="" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -1361,10 +1340,7 @@ const Home: FC = () => {
                     <div className="author-data clearfix">
                       {/* Testimonial Avatar */}
                       <div className="review-avatar">
-                        <img
-                          src="/assets/images//review-author-8.jpg"
-                          alt="review-avatar"
-                        />
+                        <img src="/assets/images//review-author-8.jpg" alt="" />
                       </div>
                       {/* Testimonial Author */}
                       <div className="review-author">
@@ -1414,7 +1390,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images//brand-1.png"
-                      alt="brand-logo"
+                      alt=""
                     />
                   </a>
                 </div>
@@ -1426,7 +1402,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images//brand-2.png"
-                      alt="brand-logo"
+                      alt=""
                     />
                   </a>
                 </div>
@@ -1438,7 +1414,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images//brand-3.png"
-                      alt="brand-logo"
+                      alt=""
                     />
                   </a>
                 </div>
@@ -1450,7 +1426,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images//brand-4.png"
-                      alt="brand-logo"
+                      alt=""
                     />
                   </a>
                 </div>
@@ -1462,7 +1438,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images//brand-5.png"
-                      alt="brand-logo"
+                      alt=""
                     />
                   </a>
                 </div>
@@ -1474,7 +1450,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images//brand-8.png"
-                      alt="brand-logo"
+                      alt=""
                     />
                   </a>
                 </div>
@@ -1486,7 +1462,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images//brand-7.png"
-                      alt="brand-logo"
+                      alt=""
                     />
                   </a>
                 </div>
@@ -1498,7 +1474,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images//brand-5.png"
-                      alt="brand-logo"
+                      alt=""
                     />
                   </a>
                 </div>
@@ -1510,7 +1486,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images//brand-8.png"
-                      alt="brand-logo"
+                      alt=""
                     />
                   </a>
                 </div>
@@ -1522,7 +1498,7 @@ const Home: FC = () => {
                     <img
                       className="img-fluid"
                       src="/assets/images//brand-2.png"
-                      alt="brand-logo"
+                      alt=""
                     />
                   </a>
                 </div>
